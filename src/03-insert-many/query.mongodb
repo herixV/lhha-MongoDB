@@ -1,0 +1,3 @@
+use ("utt_lhha_storage")
+
+db.products.find()

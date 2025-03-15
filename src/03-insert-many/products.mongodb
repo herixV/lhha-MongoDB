@@ -1,4 +1,4 @@
-use ("utt_lhha_store")
+use ("utt_lhha_storage")
 
 db.products.drop()
 
@@ -19,7 +19,7 @@ db.products.insertMany([
         price: 100
     },
     {
-        _id: 2,
+        _id: 3,
         name: "producto 3",
         price: 1030
     },
@@ -27,4 +27,3 @@ db.products.insertMany([
     ordered: false
 })
 
-db.products.find()

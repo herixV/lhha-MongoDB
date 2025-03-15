@@ -1,5 +1,5 @@
 // cuando ponemos en "use" un nombre el cual no exite la base de datos en nuerstro (CLOSTER) creara la base de datos
-use ("lhha_storage")
+use ("utt_lhha_storage")
 
 // de igual forma socede algo similar e este caso cuando una coleccion no existe la crea 
 db.products.insertOne({
