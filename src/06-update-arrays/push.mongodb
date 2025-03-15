@@ -1,0 +1,11 @@
+use("utt_store")
+
+db.inventory.updateOne(
+    {_id:4},
+    {
+        // sirve para agregar elementos a un arreglo
+        $push: {
+            tags: "headphone"
+        }
+    }
+)

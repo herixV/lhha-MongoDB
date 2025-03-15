@@ -1,0 +1,37 @@
+// cuando ponemos en "use" un nombre el cual no exite la base de datos en nuerstro (CLOSTER) creara la base de datos
+use ("lhha_storage")
+
+// de igual forma socede algo similar e este caso cuando una coleccion no existe la crea 
+db.products.insertOne({
+    name: "product 1",
+    price: 1000
+})
+
+db.products.insertOne({
+    name: "product 2",
+    price: 100
+})
+
+db.products.insertOne({
+    _id: 1,
+    name: "product 1",
+    price: 1000
+})
+
+db.products.insertOne({
+    _id: 2,
+    name: "product 2",
+    price: 100
+})
+
+db.products.insertOne({
+    _id: "2025-01",
+    name: "product 1",
+    price: 1000
+})
+
+db.products.insertOne({
+    _id: "2025-mar-02",
+    name: "product 2",
+    price: 100
+})

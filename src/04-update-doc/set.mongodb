@@ -1,0 +1,40 @@
+use ("utt_lhha_store")
+
+// db.products.updateOne(
+//     // query
+//     { _id: 2 },
+//     //   Change => Operador de canbio
+//     {
+//         $set: {
+//             name: "Change name fix"
+//         }
+//     }
+// )
+
+// update set nombre = 'Change name fix'
+// where id = 1;
+
+// use ("utt_lhha_store")
+
+// db.products.updateOne(
+    
+//     { _id: 2 },
+//     {
+//         $set: {
+//             name: "Change name",
+//             price: 3000,
+//         }
+//     }
+// )
+
+db.products.updateOne(
+    
+    { _id: 2 },
+    {
+        $set: {
+            name: "tShirt",
+            price: 3000,
+            tags: ["S", "M", "L", "XL"]
+        }
+    }
+)

@@ -1,0 +1,30 @@
+use ("utt_lhha_store")
+
+db.products.drop()
+
+db.products.insertMany([
+    {
+        _id: 1,
+        name: "producto 1",
+        price: 100
+    },
+    {
+        _id: 2,
+        name: "producto 2",
+        price: 122
+    },
+    {
+        _id: 1,
+        name: "producto 1",
+        price: 100
+    },
+    {
+        _id: 2,
+        name: "producto 3",
+        price: 1030
+    },
+],{
+    ordered: false
+})
+
+db.products.find()

@@ -1,0 +1,4 @@
+use("sample_training");
+
+// db.zips.find();
+db.zips.find( { "city": "CLEVELAND" } );

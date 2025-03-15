@@ -1,0 +1,23 @@
+use ("sample_training");
+
+// db.zips.updateMany(
+//     // query
+//   { "city": "CLEVELAND" },
+//     // update
+//   { $set: { myAttr: "Hola" } }
+// );
+
+// $rename
+// db.zips.updateMany(
+//     // query
+//   { "city": "CLEVELAND" },
+//     // update - operador
+//   { $rename: { myAttr: "my_data" } }
+// );
+// $unset
+db.zips.updateMany(
+    // query
+  { "city": "CLEVELAND" },
+    // update - operador hay que colocar comillas vacias para que se elimine el campo/atributo
+  { $unset: { my_data: "" } }
+);

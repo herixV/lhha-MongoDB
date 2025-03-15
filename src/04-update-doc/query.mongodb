@@ -1,0 +1,3 @@
+use ("utt_lhha_store")
+
+db.products.find()

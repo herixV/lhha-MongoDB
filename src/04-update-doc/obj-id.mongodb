@@ -1,0 +1,12 @@
+
+db.products.updateOne(
+    
+    { _id: 
+        ObjectId("142352346346547tg456gewr")
+    },
+    {
+        $inc: {
+            price: 97,
+        }
+    }
+)
