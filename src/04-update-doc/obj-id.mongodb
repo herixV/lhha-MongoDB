@@ -1,8 +1,9 @@
+use ("utt_lhha_store")
 
 db.products.updateOne(
     
     { _id: 
-        ObjectId("142352346346547tg456gewr")
+        ObjectId("67d65f479d0292eb37501557") 
     },
     {
         $inc: {

@@ -4,8 +4,8 @@ db.products.updateOne(
     
     { _id: 2 },
     {
-        // $nombre es un operador
-        // nombre() metodo de BD 
+        // todo lo que llevue $nombre es un operador
+        // todo lo que lleve nombre() es yn metodo de BD 
         $inc: {
             price: 121,
         }

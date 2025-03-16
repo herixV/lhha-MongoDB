@@ -1,6 +1,6 @@
-use ("utt_lhha_store")
+use("utt_lhha_store");
 
-db.products.drop()
+db.products.drop();
 
 db.products.insertMany([
     {
@@ -14,16 +14,22 @@ db.products.insertMany([
         price: 122
     },
     {
-        _id: 1,
+        _id: 3,
         name: "producto 1",
         price: 100
     },
     {
-        _id: 3,
+        _id: 4,
         name: "producto 3",
         price: 1030
     },
-],{
+    {
+        name: "pants marca nike",
+        price: 3600,
+        tags: ["S", "M", "L", "XL"]
+    },
+], {
     ordered: false
-})
+});
 
+db.products.find();

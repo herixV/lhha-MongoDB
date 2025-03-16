@@ -1,7 +1,7 @@
 use ("utt_lhha_store")
 
 // db.products.updateOne(
-//     // query
+//     // query id
 //     { _id: 2 },
 //     //   Change => Operador de canbio
 //     {
@@ -26,9 +26,9 @@ use ("utt_lhha_store")
 //         }
 //     }
 // )
-
+// podemos hacer modificacion sobre lo que no esta
 db.products.updateOne(
-    
+
     { _id: 2 },
     {
         $set: {
