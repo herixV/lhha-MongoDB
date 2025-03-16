@@ -32,7 +32,7 @@ use("utt_store")
 //         }
 //     }
 // )
-// Insert others elements from array
+// Insert others elements from array 
 // db.inventory.updateOne(
 //     {},
 //     {
